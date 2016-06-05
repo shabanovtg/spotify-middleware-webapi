@@ -1,0 +1,27 @@
+{
+  "name": "spotify-middleware-webapi",
+  "version": "1.0.0",
+  "description": "Spotify WebApi for Node.js",
+  "main": "./lib/spotify-middleware-webapi",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shabanovtg/spotify-middleware-webapi"
+  },
+  "keywords": [
+    "spotify",
+    "webapi",
+    "api",
+    "node",
+    "node.js"
+  ],
+  "author": "Igor Shabanov <shabanovtg@gmail.com>",
+  "dependencies": {
+    "request-promise": "^3.0.0"
+  }
+}
