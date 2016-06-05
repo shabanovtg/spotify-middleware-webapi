@@ -1,4 +1,11 @@
 # spotify-middleware-webapi
 
-## Start Test Server
-link on test/server/README.md
+Spotify WebApi for Node.js
+
+- refresh accessToken with help refreshToken
+- get user profile
+- following 
+  + get
+  + add (follow)
+  + delete (unfollow)
+  + contains
