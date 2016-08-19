@@ -1,6 +1,6 @@
 {
   "name": "spotify-middleware-webapi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Spotify WebApi for Node.js",
   "main": "./lib/spotify-middleware-webapi",
   "directories": {
@@ -14,14 +14,16 @@
     "url": "https://github.com/shabanovtg/spotify-middleware-webapi"
   },
   "author": {
-    "name" : "Igor Shabanov",
+    "name": "Igor Shabanov",
     "email": "shabanovtg@gmail.com",
-    "url" : "http://shabanovtg.ru"
+    "url": "http://shabanovtg.ru"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "keywords": [
     "spotify",
     "webapi",
