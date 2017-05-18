@@ -1,6 +1,6 @@
 {
   "name": "spotify-middleware-webapi",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Spotify WebApi for Node.js",
   "main": "./lib/spotify-middleware-webapi",
   "directories": {
