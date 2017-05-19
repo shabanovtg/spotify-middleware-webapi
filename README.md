@@ -74,6 +74,25 @@ spotifyModule.user(accessToken, function(err, profile, accessToken) {
 });
 ```
 
+### Search
+
+```javascript
+var q = 'search_string';
+var opts = {
+  limit: 20,
+  offset: 0,
+  market: 'US',
+  type: ['album', 'artist', 'track', 'playlist']
+};
+
+spotifyModule.search(q, opts, {
+  accessToken: accessToken,
+  refreshToken: refreshToken
+}, function(err, results, accessToken) {
+  //...
+});
+```
+
 ### Get User profile
 
 ```javascript
