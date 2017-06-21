@@ -129,6 +129,20 @@ spotifyModule.playlists(userId, {
 });
 ```
 
+### Get Playlist
+
+
+#### By ownerId and playlistId
+
+```javascript
+spotifyModule.playlist(ownerId, userId, opts, {
+  accessToken: accessToken,
+  refreshToken: refreshToken
+}, function(err, results, accessToken) {
+  //...
+});
+```
+
 
 ### Following 
 
