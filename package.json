@@ -33,7 +33,7 @@
   ],
   "dependencies": {
     "async": "^2.4.1",
-    "request-promise": "^3.0.0",
-    "underscore": "^1.8.3"
+    "lodash": "^4.17.4",
+    "request-promise": "^3.0.0"
   }
 }
