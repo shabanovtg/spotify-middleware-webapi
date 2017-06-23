@@ -32,6 +32,8 @@
     "node.js"
   ],
   "dependencies": {
-    "request-promise": "^3.0.0"
+    "async": "^2.4.1",
+    "request-promise": "^3.0.0",
+    "underscore": "^1.8.3"
   }
 }
